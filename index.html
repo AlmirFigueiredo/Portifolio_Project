@@ -13,12 +13,29 @@
 
         <nav>
             <ul>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#hardskills">Hard Skills</a></li>
-                <li><a href="#softskills">Soft Skills</a></li>
-                <li><a href="#contact">Contact me</a></li>
+                <li class="nav-item" onclick="showSection('about')">About me</li>
+                <li class="nav-item" onclick="showSection('projects')">Projects</li>
+                <li class="nav-item" onclick="showSection('hard_skills')">Hard Skills</li>
+                <li class="nav-item" onclick="showSection('soft_skills')">Soft Skills</li>
+                <li class="nav-item" onclick="showSection('contact')">Contact me</li>
             </ul>
         </nav>
+
+        <section id="about" class="section">
+        </section>
+
+        <section id="projects" class="section" style="display:none;">
+        </section>
+
+        <section id="hard_skills" class="section" style="display:none;">
+        </section>
+
+        <section id="soft_skills" class="section" style="display: none;">
+        </section>
+
+        <section id="contact" class="section" style="display: none;">
+        </section>
+
+        <script src="script.js"></script>
     </body>
 </html>
