@@ -1,109 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jose Almir | Data Analysis Portifolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-        <h3 id="main-tittle">Jose Almir | Data Analysis & Insights</h3>
-        <nav>
-            <ul>
-                <li class="nav-item" onclick="showSection('about')">About me</li>
-                <li class="nav-item" onclick="showSection('project_1')">Project 1</li>
-                <li class="nav-item" onclick="showSection('project_2')">Project 2</li>
-                <li class="nav-item" onclick="showSection('skills')">Skills</li>
-                <li class="nav-item" onclick="showSection('contact')">Contact me</li>
-            </ul>
-        </nav>
-        </header>
-        <section id="about" class="section">
-            <img src="Images/Profile_Picture.jpeg" alt="Foto de Perfil"style="width:150px;height:auto;">
-            <p>At the moment, I am pursuing my fifth semester in Computer Science at the Catholic University of Pernambuco. </p>
-            <p>I am fascinated by both business and technology, and I have found in this intersection an area that allows me to apply what I love to do: Data Analysis.</p>
-            <p>My goal is to delve deeper into this area, developing skills that will enable me not only to deeply understand the data but also to transform it into actions that drive growth and innovation in companies.</p>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jose Almir | Data Analysis Portifolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <section id="project_1" class="section" style="display:none;">
-            <article class="project">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec ultricies leo. Ut malesuada eleifend magna, imperdiet maximus sapien vestibulum nec. Aliquam dapibus ante nibh, suscipit pellentesque ante luctus id. Curabitur venenatis malesuada tortor eu dapibus. Phasellus nec porttitor quam. </p>
-                <table>
-                    <caption>Project 1 Details</caption>
-                    <thead>
-                        <tr>
-                            <th>Technology</th>
-                            <th>Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                        <td>Python</td>
-                        <td>Data analysis and automation scripts</td>
-                    </tr>
-                    <tr>
-                        <td>Pandas</td>
-                        <td>Data manipulation and analysis</td>
-                    </tr>
-                    <tr>
-                        <td>Power BI</td>
-                        <td>Data visualization</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </article>
-        </section>
-        <section id="project_2" class="section" style="display:none;">
-            <article class="project">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec ultricies leo. Ut malesuada eleifend magna, imperdiet maximus sapien vestibulum nec. Aliquam dapibus ante nibh, suscipit pellentesque ante luctus id. Curabitur venenatis malesuada tortor eu dapibus. Phasellus nec porttitor quam. </p>
-                <table>
-                    <caption>Project 2 Details</caption>
-                    <thead>
-                        <tr>
-                            <th>Technology</th>
-                            <th>Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                        <td>Python</td>
-                        <td>Data analysis and automation scripts</td>
-                    </tr>
-                    <tr>
-                        <td>Pandas</td>
-                        <td>Data manipulation and analysis</td>
-                    </tr>
-                    <tr>
-                        <td>Power BI</td>
-                        <td>Data visualization</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </article>
-        </section>
+  <body>
+    <header>
+      <h3 id="main-tittle">Jose Almir | Data Analysis & Insights</h3>
+      <nav>
+        <ul>
+          <li class="nav-item" onclick="showSection('about')">About me</li>
+          <li class="nav-item" onclick="showSection('project_1')">Project 1</li>
+          <li class="nav-item" onclick="showSection('project_2')">Project 2</li>
+          <li class="nav-item" onclick="showSection('skills')">Skills</li>
+          <li class="nav-item" onclick="showSection('contact')">Contact me</li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about" class="section">
+      <img
+        src="Images/Profile_Picture.jpeg"
+        alt="Foto de Perfil"
+        style="width: 150px; height: auto"
+      />
+      <p>
+        At the moment, I am pursuing my fifth semester in Computer Science at
+        the Catholic University of Pernambuco.
+      </p>
+      <p>
+        I am fascinated by both business and technology, and I have found in
+        this intersection an area that allows me to apply what I love to do:
+        Data Analysis.
+      </p>
+      <p>
+        My goal is to delve deeper into this area, developing skills that will
+        enable me not only to deeply understand the data but also to transform
+        it into actions that drive growth and innovation in companies.
+      </p>
+    </section>
 
-        <section id="skills" class="section" style="display:none;">
-        </section>
+    <section id="project_1" class="section" style="display: none">
+      <article class="project">
+        <h3>
+          RideShare Insights: Unveiling the Dynamics of Urban Mobility with Uber
+          Data
+        </h3>
+        <p>
+          In this comprehensive project, I analyzed Uber's vast dataset to
+          uncover important trends in ride-sharing, how drivers operate, and
+          what customers feel about their experiences in various cities. My
+          self-study, fueled by data from thousands of rides, was aimed at
+          studying these aspects to identify trends and formulate hands-on
+          recommendations that could boost Uber's operational efficiency and
+          enhance the customer experience.
+        </p>
+        <table>
+          <caption>
+            Project Details
+          </caption>
+          <thead>
+            <tr>
+              <th>Technology</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Python</td>
+              <td>Used for data preprocessing, analysis, and modeling.</td>
+            </tr>
+            <tr>
+              <td>SQL</td>
+              <td>
+                Utilized for querying and manipulation the database to retrieve
+                specific subsets of data for in-depth analysis.
+              </td>
+            </tr>
+            <tr>
+              <td>Power BI</td>
+              <td>
+                Employed for visualizing the data insights and trends in an
+                interactive dashboard format.
+              </td>
+            </tr>
+            <tr>
+              <td>Machine Learning (Scikit-Learn)</td>
+              <td>
+                Applied to predict customer satisfaction and to forecast demand
+                in various locations, using algorithms such as Random Forest and
+                Linear Regression
+              </td>
+            </tr>
+            <tr>
+              <td>Apache Spark</td>
+              <td>
+                Leveraged for processing large volumes of data efficiently.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+    <section id="project_2" class="section" style="display: none">
+      <article class="project">
+        <h3>Sustainable Energy Consumption Analysis</h3>
+        <p>
+          This project underscored the crucial role of data analysis in
+          promoting sustainable energy consumption. It was conducted as an
+          ambitious self-study initiative, aiming to merge analytical skills
+          with a passion for environmental sustainability. By pinpointing
+          inefficiencies and predicting the outcomes of various energy
+          conservation strategies, this self-directed analysis provided valuable
+          insights for policymakers, utility companies, and environmentally
+          conscious consumers. The project not only highlighted areas for
+          improvement but also demonstrated the power of individual initiative
+          in contributing to a more sustainable future.
+        </p>
+        <table>
+          <caption>
+            Project Details
+          </caption>
+          <thead>
+            <tr>
+              <th>Technology</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>R</td>
+              <td>Utilized for statistical analysis and data visualization</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Used for data preprocessing, analysis, and modeling.</td>
+            </tr>
+            <tr>
+              <td>SQL</td>
+              <td>
+                Utilized for querying and manipulation the database to retrieve
+                specific subsets of data for in-depth analysis.
+              </td>
+            </tr>
+            <tr>
+              <td>Machine Learning (TensorFlow)</td>
+              <td>
+                Applied machine learning algorithms to predict future energy
+                consumption trends and assess the potential impact of
+                implementing various energy-saving measures.
+              </td>
+            </tr>
+            <tr>
+              <td>GIS Software</td>
+              <td>
+                Leveraged Geographic Information Systems (GIS) to analyze
+                spatial data on energy consumption, allowing us to visualize
+                consumption hotspots and the geographical distribution of
+                renewable energy utilization.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
 
-        <section id="contact" class="section" style="display: none;">
-            <form id="contactForm">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button type="submit">Send</button>
-            </form>
-        </section>
+    <section id="skills" class="section" style="display: none">
+      <p>
+        In the world of data analysis, it is important to have a mix of strong
+        technical skills and good people skills. Below, you will find a list of my
+        key abilities. The "Hard Skills" are the specific technical skills I use
+        to work with data, like using certain computer programs and
+        understanding complex data. The "Soft Skills" are all about how I work
+        with others and handle challenges. They show that I can think on my
+        feet, work well in a team, and keep learning new things. Together, these
+        skills help me solve problems and make smart decisions with data.
+      </p>
+      <table>
+        <caption>
+          Skills
+        </caption>
+        <thead>
+          <tr>
+            <th>Hard Skills</th>
+            <th>Soft Skills</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data Analysis with Python (Pandas, NumPy)</td>
+            <td>Problem-solving</td>
+          </tr>
+          <tr>
+            <td>Statistical Analysis with R</td>
+            <td>Critical Thinking</td>
+          </tr>
+          <tr>
+            <td>Machine Learning (Scikit-Learn, TensorFlow)</td>
+            <td>Effective Communication</td>
+          </tr>
+          <tr>
+            <td>Data Visualization (Power BI, Matplotlib)</td>
+            <td>Teamwork</td>
+          </tr>
+          <tr>
+            <td>SQL for Data Querying</td>
+            <td>Adaptability</td>
+          </tr>
+          <tr>
+            <td>Big Data Technologies (Apache Hadoop, Spark)</td>
+            <td>Continuous Learning</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-        <script src="script.js"></script>
-    </body>
+    <section id="contact" class="section" style="display: none">
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
