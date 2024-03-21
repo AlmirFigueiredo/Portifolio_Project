@@ -1,56 +1,63 @@
 body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-display: flex;
-flex-direction: column;
-background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
 }
 
-header, nav {
-background-color: #484848;
-display: flex;
-justify-content: space-between;
-align-items: center;
+header,
+nav {
+    background-color: #484848;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#main-tittle, nav ul li a:hover, .nav-item.active {
-color: white;
+#main-tittle,
+nav ul li a:hover,
+.nav-item.active {
+    color: white;
 }
 
 #main-tittle {
-margin: 20px;
+    margin: 20px;
 }
 
 nav {
-padding: 10px;
-text-align: right;
+    padding: 10px;
+    text-align: right;
 }
 
 nav ul {
-list-style: none;
-margin: 0;
-padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-display: inline;
-margin: 0 10px;
-cursor: pointer;
-color: black;
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+    color: black;
 }
 
 .nav-item.active {
-font-weight: bold;
-color: white;
+    font-weight: bold;
+    color: white;
 }
 
 .section {
-display: none;
+    display: none;
 }
 
-#about {
+#about,
+#project_1,
+#project_2,
+#skills,
+#contact {
     text-align: center;
     padding: 20px;
 }
@@ -60,25 +67,31 @@ display: none;
     margin: 20px 0;
 }
 
-#about p {
+#about p,
+#project_1 p,
+#project_2 p,
+#skills p {
     text-align: justify;
     margin-bottom: 15px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
 }
 
 table {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #ddd;
-    
 }
 
-th, td {
+th,
+td {
     text-align: left;
     padding: 8px;
 }
@@ -86,13 +99,10 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-#project_1 h3, #project_2 h3{
-    text-align: center;
-}
 
-#contact {
+#project_1 h3,
+#project_2 h3 {
     text-align: center;
-    padding: 20px;
 }
 
 .form-group {
@@ -104,13 +114,8 @@ label {
     margin-bottom: 5px;
 }
 
-input[type="text"], input[type="email"] {
-    width: 25%;    
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;    
-} 
+input[type="text"],
+input[type="email"],
 textarea {
     width: 50%;
     padding: 8px;
