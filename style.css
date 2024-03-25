@@ -70,7 +70,8 @@ nav ul li {
 #about p,
 #project_1 p,
 #project_2 p,
-#skills p {
+#skills p,
+footer {
     text-align: justify;
     margin-bottom: 15px;
     margin-left: auto;
